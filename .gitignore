@@ -1,4 +1,4 @@
 **/work
 *.wlf
 transcript
-renders/
+renders/*

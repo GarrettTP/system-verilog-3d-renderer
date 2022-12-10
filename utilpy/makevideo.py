@@ -36,6 +36,7 @@ for filename in os.listdir(directory):
     frame += 1
 
     if os.path.isfile(f):
+        #print("Processing", f)
         img = cv2.imread(f)
         out.write(img)
 
