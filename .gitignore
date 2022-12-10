@@ -2,3 +2,4 @@
 *.wlf
 transcript
 renders/*
+*.vstf
