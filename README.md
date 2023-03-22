@@ -1,3 +1,5 @@
+A custom 3D render written in SystemVerilog capable of ultra basic rendering operations.
+
 # system-verilog-3d-renderer
 
 This SystemVerilog project renders basic 3D geometry. No external code, libraries, rendering engines, graphics frameworks, etc, are used within the SystemVerilog code. The idea was to make the code synthesizable on an fpga board, but the board I had access to did not have enough memory to create a pixel buffer or depth buffer without an external device. The goal of this project is to demonstrate complex mathematical concepts used in rendering pipelines and an understanding of non-synthesizable SystemVerilog coding techniques.
