@@ -8,7 +8,7 @@ This SystemVerilog project renders basic 3D geometry. No external code, librarie
 Images are rendered frame by frame into .tga files. The chosen image type was .tga due to the simplistic image encoding and header. Once each frame is rendered from SystemVerilog, a Python utility consolidates the images into a single video.avi file.
 
 ## Issues
-The project is not complete and still has some bugs such as clipping at the edges of triangles and lacks a depth buffer.
+The project is not fully featured and still has some bugs such as clipping at the edges of triangles. The pipeline still has a long ways to go as it lacks a basic depth buffer and limited camera support.
 
 ## Example Render
 
