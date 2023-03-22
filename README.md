@@ -2,7 +2,7 @@ A custom 3D render written in SystemVerilog capable of ultra basic rendering ope
 
 # system-verilog-3d-renderer
 
-This SystemVerilog project renders basic 3D geometry. No external code, libraries, rendering engines, graphics frameworks, etc, are used within the SystemVerilog code. The idea was to make the code synthesizable on an fpga board, but the board I had access to did not have enough memory to create a pixel buffer or depth buffer without an external device. The goal of this project is to demonstrate complex mathematical concepts used in rendering pipelines and an understanding of non-synthesizable SystemVerilog coding techniques.
+This SystemVerilog project renders basic 3D geometry. No external code, libraries, rendering engines, graphics frameworks, etc, are used within the SystemVerilog code. The idea was to make the code synthesizable on an fpga board, but the board I had access to did not have enough memory to create a pixel buffer or depth buffer without an external device. The goal of this project is to demonstrate complex mathematical concepts used in rendering pipelines and an understanding of synthesizable and non-synthesizable SystemVerilog coding techniques.
 
 # How it Works
 Images are rendered frame by frame into .tga files. The chosen image type was .tga due to the simplistic image encoding and header. Once each frame is rendered from SystemVerilog, a Python utility consolidates the images into a single video.avi file.
